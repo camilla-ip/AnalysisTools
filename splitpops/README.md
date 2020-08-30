@@ -4,7 +4,7 @@ Split a file of Illumina paired-end reads for a Hepatitis C Virus (HCV) sample i
 
 __Input__  
 - Sample paired-end reads (BAM format)
-- A set of HCV target references (FASTA format, containing one FASTA entry for each HCV reference genome of known subgenotype, where file name and reference ID of format SUBGENOTYPE_ID, e.g., 1a_ABCDEFG)
+- A comprehensive set of HCV target references (FASTA format, containing one FASTA entry for each HCV reference genome of known subgenotype, where file name and reference ID of format SUBGENOTYPE_ID, e.g., 1a_ABCDEFG)
 - Minimum percentage of sample reads to a target reference sub-genotype matches for the target references (range 0 to 100, default 1.0)
 
 __Method__  
