@@ -13,7 +13,7 @@ __Method__
 - If  at least one read of the pair were able to be mapped to a target reference genome, the pair was allocated the sub-genotype of the highest-scoring match. If both mapped to different sub-genotypes, the allocated sub-genotype read pair was marked as "ambiguous". If neither read mapped, the sub-genotype was designated "unclassified".
 
 __Output__  
-- A summary of the populations found as a tab-separated file containing "dataid, popN, readclass, readcnt, readpct, bampath", where popN is "1" for the populatio with the highest percentage, readclass is a sub-genotype (e.g., 1a, 2b), and bampath is the absolute path name to a BAM file (e.g., DATAID.splitpops.pop1.bam) (DATAID.splitpops.stats.txt)
-- A set of BAM files containing read pairs from each population (DATAID.splitpops.pop1.bam, DATAID.splitpops.pop2.bam, ...)
+- A summary of the sub-genotype populations inferred, as a tab-separated file containing "dataid, popN, readclass, readcnt, readpct, bampath", where popN is "1" for the populatio with the highest percentage, readclass is a sub-genotype (e.g., 1a, 2b), and bampath is the absolute path name to a file of name DATAID.splitpops.popN.bam where N is a number starting from 1. (DATAID.splitpops.stats.txt)
+- A set of BAM files containing read pairs allocated to each population (DATAID.splitpops.pop1.bam, DATAID.splitpops.pop2.bam, ...)
 
 This programme was originally written by me around 2015 for the Snork HCV analysis pipeline (unpublished) while working at The Wellcome Centre for Human Genetics, University of Oxford, for the [STOP-HCV Consortium](https://www.stop-hcv.ox.ac.uk/home), parts of which were incorporated in to the Public Health England HCV analysis pipeline published in "Technical Validation of a Hepatitis C Virus Whole Genome Sequencing Assay for Detection of Genotype and Antiviral Resistance in the Clinical Pathway", Frontiers in Microbiology, 2020.
