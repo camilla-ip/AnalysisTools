@@ -16,7 +16,7 @@ __Output__
 - A summary of the populations found as a tab-separated file containing "dataid, popN, readclass, readcnt, readpct, bampath", where popN is "1" for the populatio with the highest percentage, readclass is a sub-genotype (e.g., 1a, 2b), and bampath is the absolute path name to a BAM file (e.g., DATAID.splitpops.pop1.bam) (DATAID.splitpops.stats.txt)
 - A set of BAM files containing read pairs from each population (DATAID.splitpops.pop1.bam, DATAID.splitpops.pop2.bam, ...)
 
-This programme was originally written by me for the Snork HCV analysis pipeline (unpublished) at the [STOP-HCV Consortium][https://www.stop-hcv.ox.ac.uk/home], parts of which were incorporated in to the Public Health England HCV analysis pipeline published in "Technical Validation of a Hepatitis C Virus Whole Genome Sequencing Assay for Detection of Genotype and Antiviral Resistance in the Clinical Pathway", Frontiers in Microbiology, 2020.
+This programme was originally written by me for the Snork HCV analysis pipeline (unpublished) at the [STOP-HCV Consortium](https://www.stop-hcv.ox.ac.uk/home), parts of which were incorporated in to the Public Health England HCV analysis pipeline published in "Technical Validation of a Hepatitis C Virus Whole Genome Sequencing Assay for Detection of Genotype and Antiviral Resistance in the Clinical Pathway", Frontiers in Microbiology, 2020.
 
 Camilla Ip  
 2017, The Wellcome Centre for Human Genetics, University of Oxford, UK
